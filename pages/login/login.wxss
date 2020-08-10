@@ -28,3 +28,18 @@ input {
   width: 100%;
   margin-bottom: 16rpx;
 }
+
+.code_number {
+  flex: 1;
+}
+
+.btn_code {
+  background-color: #576b95;
+  color: white;
+  font-size: 32rpx;
+}
+
+.btn_login {
+  background-color: #576b95;
+  color: white;
+}

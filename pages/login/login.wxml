@@ -1,11 +1,11 @@
 <view class="container">
-  <text>欢迎登陆小胖商城</text>
+  <text>欢迎登陆William商城</text>
   <input type="number" class="phone_number" bindblur="getPhone" placeholder="请输入手机号码"></input>
   <view class="code">
     <input class="code_number" bindblur="getCode" placeholder="请输入验证码"></input>
-    <button>点击获取验证码</button>
+    <button class="btn_code">获取验证码</button>
   </view>
   <view>
-    <button bindtap="login">商城登陆</button>
+    <button class="btn_login" bindtap="login">商城登陆</button>
   </view>
 </view>
