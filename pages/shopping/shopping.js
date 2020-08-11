@@ -1,27 +1,18 @@
-// pages/index/index.js
+// pages/shopping/shopping.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    navList: [],
-  },
 
-  getNavList() {
-    wx.request({
-      url: 'http://www.hengyishun.cn/login/navList',
-      success(res) {
-        console.log(res,'navList');
-      }
-    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.getNavList();
+
   },
 
   /**

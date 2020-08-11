@@ -36,7 +36,18 @@ Page({
         code: this.data.code
       }),
       success(res) {
-        console.log(res,'登录成功');
+        // if(res.data == 'true') {
+          wx.showToast({
+            title: '登录成功',
+            duration: 1000,
+          });
+          setTimeout(()=>{
+            wx.switchTab({
+              url: '/pages/index/index'
+            })
+          },1000)
+          
+        // }
       }
     })
   },
